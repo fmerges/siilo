@@ -13,6 +13,7 @@ Siilo supports for the following file storages:
     - :ref:`local-filesystem`
     - :ref:`apache-libcloud`
     - :ref:`amazon-s3`
+    - :ref:`cmis`
 
 Siilo has the following goals:
 
@@ -34,6 +35,7 @@ Contents
    storages/amazon_s3
    storages/apache_libcloud
    storages/filesystem
+   storages/cmis
    api
    changelog
    license

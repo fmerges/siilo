@@ -3,8 +3,8 @@ Quickstart
 
 This page gives you an introduction to Siilo. It shows you an example of using
 Siilo in the local filesystem. You can read how you can use Siilo for the
-:ref:`local-filesystem`, :ref:`amazon-s3` and :ref:`apache-libcloud` in their
-respective chapters.
+:ref:`local-filesystem`, :ref:`amazon-s3`, :ref:`apache-libcloud` and
+:ref:`cmis` in their respective chapters.
 
 If you do not already have Siilo installed, run this in your terminal::
 
