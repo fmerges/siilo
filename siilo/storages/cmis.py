@@ -22,7 +22,8 @@ class CmisStorage(Storage):
     A storage for a `Content Management Interoperability Services`_ (CMIS)
     compatible CMS.
 
-    .. _Content Management Interoperability Services: http://chemistry.apache.org/project/cmis.html
+    .. _Content Management Interoperability Services:
+            http://chemistry.apache.org/project/cmis.html
 
     In order to use this storage driver you need to have Apache Chemistry
     CmisLib installed. You can install it using pip::

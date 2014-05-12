@@ -67,7 +67,7 @@ def test_delete_raises_error_if_file_doesnt_exist_on_delete(
     obj = repository.getObjectByPath('some_file.txt')
     obj.delete.side_effect = object_does_not_exist_on_delete
     with pytest.raises(FileNotFoundError) as excinfo:
-         storage.delete('some_file.txt')
+            storage.delete('some_file.txt')
     assert excinfo.value.name == 'some_file.txt'
 
 
@@ -95,6 +95,7 @@ def test_size_raises_error_if_file_doesnt_exist(
 def test_url_raises_not_implemented(storage, repository):
     with pytest.raises(NotImplementedError) as excinfo:
         storage.url('some_file.txt')
+    assert excinfo.type == NotImplementedError
 
 
 def test_open_returns_cmis_file_with_default_mode_and_encoding(storage):
@@ -306,9 +307,7 @@ def test_uploads_file_opened_in_write_mode_but_new_for_storage(
             pass
     with mock_open(file_._temporary_filename, mode='rb') as temp_file:
         repository.rootFolder.createDocument.assert_called_with(
-                'some_file.txt',
-                contentFile=temp_file
-        )
+            'some_file.txt', contentFile=temp_file)
 
 
 @pytest.mark.parametrize(
