@@ -30,6 +30,9 @@ class CmisStorage(Storage):
 
         pip install cmislib
 
+    **Note:** The current version of cmislib 0.5.1 is not compatible with
+    Python 3.
+
     Example::
 
         import cmislib
