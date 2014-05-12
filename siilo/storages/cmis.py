@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-    siilo.storages.filesystem
-    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    siilo.storages.cmis
+    ~~~~~~~~~~~~~~~~~~~
 
     :copyright: (c) 2014 by Janne Vanhala.
     :license: MIT, see LICENSE for more details.

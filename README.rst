@@ -24,6 +24,7 @@ Siilo supports for the following file storages:
 - Local Filesystem
 - Apache Libcloud
 - Amazon S3
+- CMIS
 
 Siilo has the following goals:
 
